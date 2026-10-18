@@ -1,0 +1,34 @@
+{
+  "geode": "4.0.0",
+  "gd": {
+    "win": "2.2074",
+    "android": "2.2074",
+    "mac": "2.2074"
+  },
+  "id": "yourname.snap-input",
+  "name": "Survivable Input Snap",
+  "version": "v0.1.0",
+  "developer": "yourname",
+  "description": "Practice-mode assist: shifts a click to the nearest step that survives a short lookahead simulation.",
+  "settings": {
+    "enabled": {
+      "type": "bool",
+      "name": "Enabled",
+      "default": true
+    },
+    "window": {
+      "type": "int",
+      "name": "Snap window (steps)",
+      "default": 3,
+      "min": 1,
+      "max": 8
+    },
+    "horizon": {
+      "type": "int",
+      "name": "Lookahead (steps)",
+      "default": 20,
+      "min": 5,
+      "max": 60
+    }
+  }
+}
